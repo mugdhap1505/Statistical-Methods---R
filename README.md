@@ -18,13 +18,13 @@ If the values of the independent variables (x’s) in regression
 are controlled using a designed experiment (i.e., set in advance before the value
 of y is observed), the data are experimental.
 
-Probabilistic model
+#### Probabilistic model
 y = E(y)+ ε, where
 1. E(y) = mean (expected) y is a function of
 x1, x2, . . . , xk
 2. ε is random error
 
-Steps in regression
+#### Steps in regression
 1. Hypothesize the form of the model for E(y)
 2. Collect the sample data
 3. Estimate the unknown parameters in the model
@@ -52,8 +52,10 @@ hypothesize curvature in the graph of the response model relating y to x. Graphs
 It is one of the most widely used variable selection methods. To run a stepwise regression, the user first identifies the dependent variable y, and the set of potentially important independent variables, x1, x2, . . ., xk, where k is generally large. The result of the stepwise procedure is a model containing only those terms with t-values that are significant at the specified α level. Thus, in most practical situations only several of the large number of independent variables remain. In these algorithmic approaches, variables are added into or deleted from the model in an iterative manner, one at a time.
 
 ### Following are the types of stepwise regression techniques:
-a) Forward selection
+a) Forward selection.
+
 b) Backward selection.
+
 c) Stepwise search.
 
 ## Multicollinearity:
