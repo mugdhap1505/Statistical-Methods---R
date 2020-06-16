@@ -1,4 +1,4 @@
-﻿# Statistical-Methods---R
+﻿# Statistical Methods - R
 
 
 Regression analysis is a branch of statistical methodology concerned with relating
